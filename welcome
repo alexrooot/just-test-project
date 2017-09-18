@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class welcome{
+public static void main (String [] args){
+  System.out.println("Hello I am a computer, I don't have name do you?");
+    Scanner input = new Scanner(System.in);
+    string name;
+    name= input.nextLine();
+    System.out.println("Well nice to meet you "+name);
+      }
+}
